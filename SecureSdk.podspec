@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/sonmezvolkan/SDK.git"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "Volkan Sönmez" => "sonmez.volkan@outlook.com" }
-    s.source       = { :git => "https://github.com/sonmezvolkan/SDK.git", :branch => "master", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/sonmezvolkan/Sdk2.git", :branch => "main", :tag => "#{s.version}" }
     s.vendored_frameworks = "SecureSdk.xcframework"
     s.platform = :ios
     s.swift_version = "5.7"
