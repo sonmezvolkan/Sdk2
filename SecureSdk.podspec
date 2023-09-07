@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
   spec.swift_version = '5.0'
 
-  spec.source       = { :http => "https://staging.musicaseservice.me/SecureSdk.xcframework.zip", :flatten => false }
+  spec.source       = { :http => "https://staging.musicaseservice.me/SecureSdk.xcframework.zip" }
   spec.vendored_frameworks = "SecureSdk.xcframework"
 
 
